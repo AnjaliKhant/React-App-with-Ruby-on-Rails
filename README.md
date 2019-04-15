@@ -1,24 +1,27 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Introduction
+```
+This is react with ruby on rails
+this has used webpacker
+```
 
-Things you may want to cover:
+## Instalation
+```
+rails new react-app --webpack=react
+```
 
-* Ruby version
+if the webpack is not installed automatically
+then follow below commands
 
-* System dependencies
+```
+$ bundle install
+$ rails webpacker:install
+$ rails webpacker:install:react
+$ rails generate react:install
+```
 
-* Configuration
+After webpack is installed you can create your own components
 
-* Database creation
 
-* Database initialization
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
